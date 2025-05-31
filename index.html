@@ -15,6 +15,11 @@
       background: #fff;
       color: #000;
       line-height: 1.6;
+      animation: fadeIn 1s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
     }
     h1, h2 {
       color: #000080;
@@ -45,19 +50,43 @@
     nav a:hover {
       text-decoration: underline;
     }
+    form {
+      margin-top: 20px;
+      max-width: 400px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      background-color: #000080;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    form button:hover {
+      background-color: #333399;
+    }
   </style>
 </head>
 <body>
 
 <nav>
-  <a href="#">Accueil</a>
+  <a href="#top">Accueil</a>
   <a href="#projets">Projets</a>
   <a href="#contact">Contact</a>
 </nav>
 
+<a id="top"></a>
+
 <h1>Fatimata Amadou Ba</h1>
 <p><strong>Statisticienne - Élève ingénieure en data science</strong><br>
-📍 Nouakchott, Mauritanie | 📧 bam68911@gmail.com | 📞 +222 32358608</p>
+📍 Nouakchott, Mauritanie | 📧 <a href="mailto:bam68911@gmail.com">bam68911@gmail.com</a> | 📞 +222 32358608</p>
 <p>🔗 <a href="https://linkedin.com/in/fatimata-ba-235337250" target="_blank">LinkedIn</a> | <a href="https://github.com/fatimataba21" target="_blank">GitHub</a></p>
 
 <hr>
@@ -175,6 +204,17 @@
 </ul>
 
 <p><a href="CV_fr.pdf" download>Télécharger le CV PDF</a></p>
+
+<div id="contact">
+  <p><a href="CV_fr.pdf" download>Télécharger le CV PDF</a></p>
+  <p>📬 Contact direct : <a href="mailto:bam68911@gmail.com">bam68911@gmail.com</a></p>
+  <form action="mailto:bam68911@gmail.com" method="POST" enctype="text/plain">
+    <input type="text" name="Nom" placeholder="Votre nom" required>
+    <input type="email" name="Email" placeholder="Votre email" required>
+    <textarea name="Message" rows="5" placeholder="Votre message" required></textarea>
+    <button type="submit">Envoyer</button>
+  </form>
+</div>
 
 </body>
 </html>
