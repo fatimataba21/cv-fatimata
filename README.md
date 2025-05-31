@@ -27,7 +27,7 @@ Passionnée par la **science des données**, l’**analyse statistique** et l’
 
 | Projet | Description | Lien |
 |--------|-------------|------|
-| **Stage Oméga-Conseils** | Data Science sur données clients | [🔗 GitHub](https://github.com/fatimataba21/stage-omega-data-science) |
+| **Stage Oméga-Conseils** | Data Science sur données collectés par moi méme | [🔗 GitHub](https://github.com/fatimataba21/stage-omega-data-science) |
 | **Stage UNFPA** | Analyse statistique sur la santé reproductive et les violences basées sur le genre | [🔗 GitHub](https://github.com/fatimataba21/stage-unfpa-analyse-statistique) |
 | **Stage ANSADE** | Étude sur la mortalité des enfants de moins de 5 ans | [🔗 GitHub](https://github.com/fatimataba21/stage-ansade-analyse-mortalite) |
 | **Projet PEI – Arrosage Intelligent** | Système d’arrosage automatisé avec microcontrôleur | [🔗 GitHub](https://github.com/fatimataba21/projet-pei-arrosage-intelligent) |
